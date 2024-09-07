@@ -1,8 +1,8 @@
-import express from 'express';
-import EmailController from '../controllers/EmailController.js';
+// import express from 'express';
+// import EmailController from '../controllers/EmailController.js';
 
-const routes = express.Router();
+// const routes = express.Router();
 
-routes.post("/contato", EmailController.enviarEmail);
+// routes.post("/contato", EmailController.enviarEmail);
 
-export default routes
+// export default routes
