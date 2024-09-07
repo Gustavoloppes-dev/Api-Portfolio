@@ -9,6 +9,6 @@
 "routes": [
   {
     "src": "/(.*)",
-    "dest": "scr/routes/index.js"
+    "dest": "src/routes/index.js"
   }
 ]
