@@ -10,7 +10,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "Api-Portfolio/server.js"
+            "dest": "Api-Portfolio/src/routes/index.js"
         }
     ]
 
