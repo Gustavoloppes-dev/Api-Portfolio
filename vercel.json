@@ -1,17 +1,14 @@
 {
-    "version": 2,
-    "builds":[
-        {
-            "src": "Api-Portfolio/server.js",
-            "use": "@vercel/node"
-        }
-    ],
-
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "Api-Portfolio/src/routes/index.js"
-        }
-    ]
-
-}
+"version": 2,
+"builds": [
+  {
+    "src": "server.js",
+    "use": "@vercel/node"
+  }
+],
+"routes": [
+  {
+    "src": "/(.*)",
+    "dest": "server.js"
+  }
+]
