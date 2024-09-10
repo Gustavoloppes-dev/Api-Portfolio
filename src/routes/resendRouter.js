@@ -5,4 +5,4 @@ const routes = express.Router();
 
 routes.post("/contato", ResendController.enviarEmailResend);
 
-export default routes;
+export default routes; 

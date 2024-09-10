@@ -3,8 +3,6 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.API_KEY);
 const userGmail = process.env.USER_GMAIL;
-const senhaAppGmail = process.env.SENHA_APP_GMAIL;
-
 
 const sendEmail = async (subject, text,nome, empresa) => {
   const { data, error } = await resend.emails.send({
