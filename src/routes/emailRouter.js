@@ -1,5 +1,5 @@
 import express from 'express';
-import EmailController from '../controllers/EmailController.js';
+import EmailController from '../controllers/emailController.js'
 
 
 const routes = express.Router();
